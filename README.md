@@ -34,5 +34,5 @@ This project demonstrates how to deploy a lightweight NGINX web server on an AWS
 - Accessed my web page through my browser on
   WEBPAGE URL `http://3.85.110.54`
 
-## Server IP: http://3.85.110.54
+## Server IP: 3.85.110.54
 
