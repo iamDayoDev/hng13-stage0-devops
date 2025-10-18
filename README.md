@@ -14,9 +14,14 @@ This project demonstrates how to deploy a lightweight NGINX web server on an AWS
 - Port 80 (HTTP)
 
 ### STEP 2:
-- Connected Via SSH
 - Set key permissions
-  `ssh -i <key-pair-name.pem> ubuntu@SERVER_IP`
+  ```bash
+  chmod 400 <key-pair-name.pem>
+  ```
+- Connected Via SSH
+```bash 
+ssh -i <key-pair-name.pem> ubuntu@SERVER_IP
+```
 
 ### STEP 3:
 - Installed and started NGINX package
