@@ -7,7 +7,7 @@ This project demonstrates how to deploy a lightweight NGINX web server on an AWS
 ## STEPS TO FOLLOW
 ### STEP 1: 
 - Launch EC2 Instance
-- Chose Amazon Linux 2 as the AMI
+- Chose Ubuntu as the AMI
 - Selected t2.micro instance type
 - Created or selected a key pair for SSH access
 - Configured security group to allow:
@@ -21,8 +21,8 @@ This project demonstrates how to deploy a lightweight NGINX web server on an AWS
 ### STEP 3:
 - Installed and started NGINX package
   ```bash
-  sudo yum update -y
-  sudo yum install nginx -y
+  sudo apt update -y
+  sudo apt install nginx -y
   sudo systemctl start nginx
   sudo systemctl enable nginx
 
@@ -33,4 +33,6 @@ This project demonstrates how to deploy a lightweight NGINX web server on an AWS
 ### STEP 5:
 - Accessed my web page through my browser on
   WEBPAGE URL `http://3.85.110.54`
+
+## Server IP: http://3.85.110.54
 
